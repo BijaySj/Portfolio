@@ -134,10 +134,7 @@ h4, p{
     margin-bottom: 2rem;
 }
 
-.about-content img{
-    width: 100%;
-    transform: scaleX(-1);
-}
+
 
 .about-content ul{
     margin-top: 25px;
@@ -703,4 +700,44 @@ form .inp_field input {
         justify-content: center;
         flex-direction: column;
     }
+}
+
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.pho{
+    flex-basis: 35%;
+    height: 50%;
+    
+    
+   
+}
+.pho img{
+    width: 100%;
+    border-radius: 15px;
+   
+    
+}
+
+.parah{
+    flex-basis: 60%;
+
+}
+
+.tab-titles{
+    display: flex;
+    margin: 20px 0 40px;
+}
+
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight:500 ;
+    cursor: pointer;
+    position: relative;
 }
