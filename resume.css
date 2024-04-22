@@ -1,0 +1,75 @@
+* {
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+  .resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    object-fit: cover;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2,
+  h3 {
+    margin-top: 10px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+  }
+  p {
+    margin-top: 10px;
+  }
+  
+  article {
+    margin-bottom: 20px;
+  }
+  
+  .resume-menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+  }
+  .resume-menu li {
+    margin-top: 10px;
+  }
+  .resumeBox {
+    width: 100%;
+    margin-top: 81px;
+    background-color: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  }
+  .resume {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
+    height: auto;
+    background-color: black;
+    border: 2px solid white;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+  }
+  .resumeItems {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+  }

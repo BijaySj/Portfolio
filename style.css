@@ -741,3 +741,13 @@ form .inp_field input {
     cursor: pointer;
     position: relative;
 }
+
+
+
+.hob{
+    justify-content: right;
+    position: relative;
+    display: flex;
+    border-radius: 15px;
+
+}
